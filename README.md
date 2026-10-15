@@ -26,7 +26,8 @@ Sparse Labels by Weakening Anomaly Annotation"*, IEEE TGRS 2022
     ├── run_all.py             一键训练 γ=0.5/0.6/0.7
     ├── verify.py              网络结构与官方权重对齐验证
     ├── train.py + synthetic.py  教学演示（自造合成数据）
-    └── 训练指南.md            训练详细说明
+    ├── 训练指南.md            训练详细说明（复现指标）
+    └── README.md              网络结构反向工程 + MD loss 公式细节
 ```
 
 ## 一、推理（开箱即用）
