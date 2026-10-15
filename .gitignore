@@ -1,0 +1,22 @@
+# 数据（大文件，需自行下载）
+data/
+*.npy
+*.segy
+*.sgy
+
+# 推理输出
+output/
+output_*/
+
+# 训练产出权重（官方预训练权重在 network/ 下，保留）
+training/FaultNet_Gamma*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# 其他
+.DS_Store
+*.log
